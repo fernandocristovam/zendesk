@@ -62,7 +62,13 @@ img{
 }
 
 .box1 p{
-    font-size: 160%;
+    margin-top: 7%;
+    font-size: 180%;
+}
+
+.box1 h3{
+    margin-top: 3%;
+    font-size: 230%;
 }
 
 .box2{
