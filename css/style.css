@@ -7,6 +7,23 @@ header{
     height: 16vh;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img{
+    height: 15vh;
+}
+
+nav a{
+    margin-top: 3%;
+    font-size: 150%;
+    text-decoration:none;
+    color: white;
+}
+
 main{
     background-color: #F8e8CC;
     height: 100vh;
@@ -17,10 +34,22 @@ main{
 
 footer{
     background-color: #86BBD8;
-    height: 16vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.box{
+footer p{
+   font-size: 160%;
+}
+
+img{
+    width: 100px;
+    height: 300px;
+}
+
+.box0{
     background-color: darkgrey;
     align-items: center;
 }
@@ -30,11 +59,14 @@ footer{
     grid-row-start: 2;
     grid-row-end: 5;
 }
+.box1 p{
+    font-size: 160%;
+}
 
 .box2{
     grid-column-start: 4;
     grid-column-end: 7;
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-row-end: 4;
 }
 .box3{
@@ -55,3 +87,18 @@ footer{
     grid-row-start: 3;
     grid-row-end: 3;
 }  
+
+.carousel{
+    height: 10vh;
+}
+
+.entrar{
+    margin-top: 2%;
+    background-color: aliceblue;
+    height: 5vh;
+    width: 6vw;   
+}
+
+.entrar p{
+    font-size: 150%;  
+}
