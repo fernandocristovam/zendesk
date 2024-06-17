@@ -56,10 +56,10 @@ img{
 }
 
 .box0{
-    background-color: darkgrey;
     align-items: center;
 }
 .box1{
+    background-color:#f3e4cc ;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -131,4 +131,9 @@ img{
 
 .cartas{
     margin-top: 8%;
+}
+
+.icone{
+    height: 5vh;
+    width: 3vw;
 }
