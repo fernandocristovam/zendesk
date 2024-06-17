@@ -27,22 +27,27 @@ nav a{
 
 main{
     background-color: #F8e8CC;
-    height: 100vh;
+    height: 120vh;
     display: grid;
-    grid-template-columns: repeat(6,16.67%);
-    grid-template-rows: repeat(6,16.67%);
+    grid-template-columns: repeat(7,16.67%);
+    grid-template-rows: repeat(7,16.67%);
 }
 
 footer{
     background-color: #86BBD8;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    height: 20vh;
+   
 }
 
 footer p{
    font-size: 260%;
+}
+
+footer .contatos{
+    margin-top: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 img{
@@ -63,7 +68,7 @@ img{
 
 .box1 p{
     margin-top: 7%;
-    font-size: 180%;
+    font-size: 220%;
 }
 
 .box1 h3{
@@ -79,17 +84,21 @@ img{
 }
 
 .box2 div{
-   height: 50vh;
+   height: 60vh;
 }
 
 .box2 img{
-   height: 50vh;
+   height: 60vh;
 }
 .box3{
-    grid-column-start: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f3e4cc;
+    grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 5;
-    grid-row-end: 7;
+    grid-row-end: 8;
 }
 .box4{
     grid-column-start: 3;
@@ -118,4 +127,8 @@ img{
 .entrar p{
     font-size: 150%;  
     margin-left: 20%;
+}
+
+.cartas{
+    margin-top: 8%;
 }
