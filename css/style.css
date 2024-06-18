@@ -15,33 +15,39 @@ nav{
 
 nav img{
     height: 15vh;
+    width: 10vw;
 }
 
 nav a{
     margin-top: 3%;
-    font-size: 150%;
+    font-size: 230%;
     text-decoration:none;
     color: white;
 }
 
 main{
     background-color: #F8e8CC;
-    height: 100vh;
+    height: 120vh;
     display: grid;
-    grid-template-columns: repeat(6,16.67%);
-    grid-template-rows: repeat(6,16.67%);
+    grid-template-columns: repeat(7,16.67%);
+    grid-template-rows: repeat(7,16.67%);
 }
 
 footer{
     background-color: #86BBD8;
     height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+   
 }
 
 footer p{
-   font-size: 160%;
+   font-size: 60%;
+}
+
+footer .contatos{
+    margin-top: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 img{
@@ -50,17 +56,24 @@ img{
 }
 
 .box0{
-    background-color: darkgrey;
     align-items: center;
 }
 .box1{
+    background-color:#f3e4cc ;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 5;
 }
+
 .box1 p{
-    font-size: 160%;
+    margin-top: 7%;
+    font-size:  120%;
+}
+
+.box1 h3{
+    margin-top: 3%;
+    font-size: 180%;
 }
 
 .box2{
@@ -69,11 +82,23 @@ img{
     grid-row-start: 1;
     grid-row-end: 4;
 }
+
+.box2 div{
+   height: 60vh;
+}
+
+.box2 img{
+   height: 60vh;
+}
 .box3{
-    grid-column-start: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f3e4cc;
+    grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 5;
-    grid-row-end: 7;
+    grid-row-end: 8;
 }
 .box4{
     grid-column-start: 3;
@@ -93,12 +118,35 @@ img{
 }
 
 .entrar{
-    margin-top: 2%;
-    background-color: aliceblue;
-    height: 5vh;
-    width: 6vw;   
+    height: 4vh;
+    width: 5vw;   
 }
 
-.entrar p{
+.entrar a{
     font-size: 150%;  
+    margin-left: 4%;
+    margin-bottom: 50%;
+    background-color: white;
+    color: black;
+}
+
+.cartas{
+    height: 60vh;
+}
+
+.cartas img{
+    height: 30vh;
+}
+
+.cartas p{
+    font-size: 60%;
+}
+
+.icone{
+    height: 5vh;
+    width: 3vw;
+}
+
+.contatos{
+    font-size: 180%;
 }

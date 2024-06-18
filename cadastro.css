@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: #f9e8cc;
+}
+
+.container-fluid{
+    background-color: #AA7448;
+
+}
+
+button.hoover{
+    color: #f9e8cc;
+    
+}
+
+form{
+    background-color: #f9e8cc;
+    
+}
+
+
+.mb-3{
+    width: 1000px;
+}
